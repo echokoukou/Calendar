@@ -1,6 +1,14 @@
 # TGCカレンダー自動組版
 
-## InDesignフォーマット構造
+## 台紙InDesignフォーマット構造
+### layer
+- position：玉InDesignファイルの配置座標
+  - type: Guide Rectangle
+  - name: 1〜12, P1, N1
+- month：玉InDesignファイル
+- design：台紙のイラレファイル
+  
+## 玉InDesignフォーマット構造
 ### layer
 - position：玉の座標はプログラム内部で保存しない。このレイヤーの該当objectの座標（左上）が基準になる。
   - type: textFrame
