@@ -4,7 +4,7 @@
 ### layer
 - position：玉の座標はプログラム内部で保存しない。このレイヤーの該当objectの座標（左上）が基準になる。
   - type: textFrame
-  - name: R-C（行:列、1-based index）。例：3-2（3行2列目）
+  - name: R-C（行-列、1-based index）。例：3-2（3行2列目）
 
 - tama：日付の玉（outline化済み）。S:special、P:preview、N:next
   - 今月：1〜31, S23, S24
